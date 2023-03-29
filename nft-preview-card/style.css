@@ -9,30 +9,33 @@ body {
 
 #card {
     background-color: hsl(216, 50%, 16%);
-    margin: 150px;
-    padding-left: 25px;
-    padding-right: 60px;
-    padding-top: 20px;
-    padding-bottom: 40px;
+    margin: 140px;
+    padding: 15px;
+    padding-top: 28px;
     border-radius: 15px;
 }
 
 img {
-    width: 300px;
+    width: 315px;
     text-align: center;
     border-radius: 15px;
 }
 
 h1 {
-    text-align: left;
+    text-align: center;
     font-size: 1.6em;
     color: rgb(255, 255, 255);
 }
 
 #p1 {
-    text-align: justify;
+    text-align: center;
     font-size: 1.05 em;
     color: hsl(215, 51%, 70%);
+}
+
+#status {
+    display: inline-flex;
+    text-align: center;
 }
 
 #ethereum {
@@ -41,7 +44,7 @@ h1 {
 
 #ethereum-text {
     color: hsl(178, 100%, 50%);
-    text-align: left;
+    margin-right: 120px;
 }
 
 #clock {
@@ -50,6 +53,29 @@ h1 {
 
 #clock-text {
     color: hsl(215, 51%, 70%);
-    text-align: right;
 }
 
+hr {
+    height: 2px;
+    width: 310px;
+    background-color: hsl(215, 32%, 27%);
+    border: none;
+}
+
+#avatar {
+    display: inline-flex;
+}
+
+#avatar-img {
+    height: 35px;
+    width: 35px;
+    padding: 1px;
+    background-color: white;
+    border-radius: 100px;
+    margin-right: 20px;
+    margin-top: 6px;
+}
+
+#avatar-text {
+    color: hsl(215, 51%, 70%);
+}
