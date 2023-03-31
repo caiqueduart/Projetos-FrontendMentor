@@ -25,20 +25,13 @@ img {
 }
 
 h1 {
-    text-align: center;
-    font-size: 1.6em;
+    font-size: 1.5em;
     color: rgb(255, 255, 255);
 }
 
 p {
-    text-align: center;
-    font-size: 1.05 em;
+    font-size: 1em;
     color: hsl(215, 51%, 70%);
-}
-
-#status {
-    display: inline-flex;
-    text-align: center;
 }
 
 #ethereum {
@@ -46,8 +39,9 @@ p {
 }
 
 #ethereum-text {
+    display: inline-block;
+    margin-right: 50px;
     color: hsl(178, 100%, 50%);
-    margin-right: 120px;
 }
 
 #clock {
@@ -55,6 +49,8 @@ p {
 }
 
 #clock-text {
+    display: inline-block;
+    margin-left: 69px;
     color: hsl(215, 51%, 70%);
 }
 
@@ -65,21 +61,23 @@ hr {
     border: none;
 }
 
-#avatar {
-    display: inline-flex;
+div {
+    display: inline-block;
 }
 
 #avatar-img {
+    text-align: left;
     height: 35px;
     width: 35px;
     padding: 1px;
     background-color: white;
     border-radius: 100px;
-    margin-right: 20px;
-    margin-top: 6px;
+    margin: 5px;
 }
 
 #avatar-text {
+    float: right;
+    margin-left: 10px;
     color: hsl(215, 51%, 70%);
 }
 
