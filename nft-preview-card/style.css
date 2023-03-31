@@ -30,7 +30,7 @@ h1 {
     color: rgb(255, 255, 255);
 }
 
-#p1 {
+p {
     text-align: center;
     font-size: 1.05 em;
     color: hsl(215, 51%, 70%);
@@ -81,4 +81,8 @@ hr {
 
 #avatar-text {
     color: hsl(215, 51%, 70%);
+}
+
+#name {
+    color: rgb(255, 255, 255);
 }
