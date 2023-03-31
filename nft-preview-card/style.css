@@ -9,15 +9,18 @@ body {
 
 #card {
     background-color: hsl(216, 50%, 16%);
-    margin: 140px;
-    padding: 15px;
-    padding-top: 28px;
+    width: 300px;
+    padding: 18px 30px 18px 20px;
     border-radius: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 img {
-    width: 315px;
-    text-align: center;
+    height: 310;
+    width: 310px;
     border-radius: 15px;
 }
 
