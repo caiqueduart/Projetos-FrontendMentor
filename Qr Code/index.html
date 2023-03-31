@@ -10,7 +10,7 @@
         @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
         body {
-            background-color: hsl(212, 45%, 89%)
+            background-color: hsl(212, 45%, 89%);
         }
 
         h2 {
@@ -33,12 +33,15 @@
         }
 
         div {
+            position: absolute;
             background-color: hsl(0, 0%, 100%);
             width: 300px;
             height: 200 px;
             padding: 20px 29.5px 20px 20px;
             border-radius: 20px;
-            margin: 50px auto;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
         }
     </style>
 </head>
