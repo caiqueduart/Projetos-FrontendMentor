@@ -1,0 +1,69 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "hanken";
+    src: url(assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+}
+
+section {
+    min-width: 800px;
+    max-width: 1440px;
+    margin: auto;
+    font-family: "hanken", sans-serif;
+}
+
+.result {
+    min-width: 375px;
+    max-width: 375px;
+    background-image: linear-gradient(180deg, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 25px;
+}
+
+.result h1 {
+    text-align: center;
+    font-size: 1.5em;
+    color: hsl(241, 100%, 89%);
+    padding: 35px 0px 0px;
+    margin: 0px;
+}
+
+.result h2 {
+    text-align: center;
+    font-size: 2em;
+    margin: 0px;
+    color: hsl(0, 0%, 100%);
+}
+
+.result p {
+    text-align: center;
+    font-size: 1em;
+    margin: 16px 30px;
+    color: hsl(241, 100%, 89%);
+}
+
+.circle {
+    position: relative;
+    margin: 35px auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-image: linear-gradient(180deg, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+}
+
+.circle p {
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    margin: 0px;
+    text-align: center;
+    font-size: 5em;
+    font-weight: bold;
+    color: hsl(0, 0%, 100%);
+}
+
+.circle span {
+    display: block;
+    margin: 0px;
+    font-size: 0.2em;
+    font-weight: normal;
+    color: hsl(241, 100%, 89%);
+}
